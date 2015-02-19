@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49E3FB82-C11E-4421-A48C-ADCB8945C605}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SO2_Pacman</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SO2_Pacman.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BITMAPS\ghosts\gazul.bmp" />
+    <None Include="BITMAPS\ghosts\gbranco.bmp" />
+    <None Include="BITMAPS\ghosts\grosa.bmp" />
+    <None Include="BITMAPS\ghosts\gverde.bmp" />
+    <None Include="BITMAPS\ghosts\gvermelho.bmp" />
+    <None Include="BITMAPS\Inicio.bmp" />
+    <None Include="bitmaps\mapa\bitmap1.bmp" />
+    <None Include="BITMAPS\Mapa\bolas.bmp" />
+    <None Include="BITMAPS\Mapa\bolasuper.bmp" />
+    <None Include="BITMAPS\Mapa\caminho.bmp" />
+    <None Include="BITMAPS\Mapa\parede.bmp" />
+    <None Include="BITMAPS\Mapa\paredeDir.bmp" />
+    <None Include="BITMAPS\Mapa\paredeEsq.bmp" />
+    <None Include="BITMAPS\Mapa\paredeHorDir.bmp" />
+    <None Include="BITMAPS\Mapa\paredeHoriz.bmp" />
+    <None Include="BITMAPS\Mapa\paredeHorizEsq.bmp" />
+    <None Include="BITMAPS\Mapa\paredeInf.bmp" />
+    <None Include="BITMAPS\Mapa\paredeInfDir.bmp" />
+    <None Include="BITMAPS\Mapa\paredeInfEsq.bmp" />
+    <None Include="BITMAPS\Mapa\paredeSaida.bmp" />
+    <None Include="BITMAPS\Mapa\paredeSup.bmp" />
+    <None Include="BITMAPS\Mapa\paredeSupDir.bmp" />
+    <None Include="BITMAPS\Mapa\paredeVert.bmp" />
+    <None Include="BITMAPS\Mapa\paredeVertBaixo.bmp" />
+    <None Include="BITMAPS\Mapa\paredeVertCima.bmp" />
+    <None Include="BITMAPS\Mapa\paredeVertDir.bmp" />
+    <None Include="BITMAPS\Mapa\supEsq.bmp" />
+    <None Include="BITMAPS\pacBaixo.bmp" />
+    <None Include="BITMAPS\pacCima.bmp" />
+    <None Include="BITMAPS\pacDead.bmp" />
+    <None Include="BITMAPS\pacDireita.bmp" />
+    <None Include="BITMAPS\pacEsquerda.bmp" />
+    <None Include="Pacman.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

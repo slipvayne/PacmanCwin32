@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SO2_Pacman.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pacman.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\pacBaixo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\pacCima.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\pacDireita.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\pacEsquerda.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Inicio.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\bolas.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\caminho.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\parede.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeDir.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeEsq.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeHoriz.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeHorizEsq.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeInf.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeInfDir.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeInfEsq.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeSup.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeSupDir.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeVert.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeVertBaixo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeVertCima.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeVertDir.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\supEsq.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeHorDir.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\bolasuper.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\Mapa\paredeSaida.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\mapa\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\ghosts\gazul.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\ghosts\gbranco.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\ghosts\grosa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\ghosts\gverde.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\ghosts\gvermelho.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BITMAPS\pacDead.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
